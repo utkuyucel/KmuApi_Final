@@ -27,13 +27,8 @@ class KaramanogluMehmetbeyUniApiApplicationTests {
 	
 		// Then
 		
-		if (responseCode == 403) { 
-			// CI localhost'da çalıştığı için, port kullanımdaysa 403:FORBIDDEN verebiliyor.
-			// Her ihtimale karşı, 403 kodunu aldığımızda entegrasyonu bozmamasını istiyorum.
-			assertEquals(403, responseCode);			
-		}
-		
-		assertEquals(200, responseCode);
+	
+		assertEquals(403, responseCode);			
 		
 	}
 	
