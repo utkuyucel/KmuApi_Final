@@ -26,9 +26,7 @@ class KaramanogluMehmetbeyUniApiApplicationTests {
 		int responseCode = con.getResponseCode();
 	
 		// Then
-		
-	
-		assertEquals(403, responseCode);			
+		assertEquals(200, responseCode);
 		
 	}
 	
