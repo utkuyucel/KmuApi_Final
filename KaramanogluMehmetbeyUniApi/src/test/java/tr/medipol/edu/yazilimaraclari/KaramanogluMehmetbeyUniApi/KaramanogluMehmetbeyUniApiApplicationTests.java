@@ -18,7 +18,7 @@ class KaramanogluMehmetbeyUniApiApplicationTests {
 	@Test
 	public void dersListeleTest() throws IOException {
 		// Given
-		URL url = new URL("http://localhost:8080/ders/listele");
+		URL url = new URL("/ders/listele");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		
 		// When
